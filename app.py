@@ -7,7 +7,7 @@ app = Flask(__name__) #アンダースコア(_)をnameの左右にそれぞれ2�
 #ルーティング設定をする
 @app.route('/')
 def hello_world():
-    return 'Welcome to Flask World'
+    return 'good evening Flask World'
 
 if __name__ == "__main__": #最後に記述する
     app.run(debug=True)
